@@ -1,0 +1,7 @@
+#grad1 {
+  background-image: linear-gradient(
+    to right,
+    rgb(189, 183, 228),
+    rgb(188, 252, 252)
+  );
+}

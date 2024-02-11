@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Practise 2024</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"
+          ><img src="./src/wifi-off.svg" width="30" height="24" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarScroll"
+          aria-controls="navbarScroll"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarScroll">
+          <ul
+            class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll"
+            style="--bs-scroll-height: 100px"
+          >
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"
+                >Broadband</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Mobile</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle active"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Deals
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Unlimited Fibre</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">Unlimited Fibre Extra</a>
+                </li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">Full Fibre</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" aria-disabled="true">Reward card</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="postcode"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">Find</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!-- Front Page -->
+    <!-- Info page -->
+
+    <div class="px-4 pt-5 my-5 text-center border-bottom">
+      <h1 class="display-4 fw-bold text-body-emphasis">
+        Award-winning Full Fibre broadband deals
+      </h1>
+      <div class="col-lg-6 mx-auto">
+        <p class="lead mb-4">
+          Get our fastest most reliable packages from just £24.99 a month and no
+          activation fee. That’s a plus. Increases 31 March.
+        </p>
+        <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
+          <button type="button" class="btn btn-primary btn-lg px-4 me-sm-3">
+            Discover Full Fibre
+          </button>
+          <button type="button" class="btn btn-outline-secondary btn-lg px-4">
+            Legacy Plan
+          </button>
+        </div>
+      </div>
+      <div class="overflow-hidden" style="max-height: 30vh">
+        <div class="container px-5">
+          <img
+            src="https://media.cybernews.com/images/featured-big/2023/10/best_broadband_deals.jpg"
+            class="img-fluid border rounded-3 shadow-lg mb-4"
+            alt="Example image"
+            width="700"
+            height="500"
+            loading="lazy"
+          />
+        </div>
+      </div>
+    </div>
+
+    <!-- Pricing Table -->
+
+    <div class="container">
+      <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
+        <h1 class="display-4 fw-normal text-body-emphasis">
+          Full Fibre straight to the home
+        </h1>
+        <p class="fs-5 text-body-secondary">
+          Woohoo! You can get our fastest ever Full Fibre packages. With Full
+          Fibre you get a connection straight to your home, so you don’t need a
+          phone line. Price rises each year on 31 March by Consumer Price Index
+          rate of inflation + 3.9%
+        </p>
+      </div>
+      <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+        <div class="col">
+          <div class="card mb-4 rounded-3 shadow-sm">
+            <div class="card-header py-3">
+              <h4 class="my-0 fw-normal">Full Fibre 74</h4>
+            </div>
+            <div class="card-body">
+              <h1 class="card-title pricing-card-title">
+                £24.99<small class="text-body-secondary fw-light">/mo</small>
+              </h1>
+              <ul class="list-unstyled mt-3 mb-4">
+                <li>40Mb minimum guaranteed speed</li>
+                <li>20Mb estimated upload speed</li>
+                <li>£0 activation fee, was £20</li>
+                <li>Broadband only, no phone line required</li>
+              </ul>
+              <button
+                type="button"
+                class="w-100 btn btn-lg btn-outline-primary"
+              >
+                Continue to Checkout
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card mb-4 rounded-3 shadow-sm">
+            <div class="card-header py-3">
+              <h4 class="my-0 fw-normal">Full Fibre 145</h4>
+            </div>
+            <div class="card-body">
+              <h1 class="card-title pricing-card-title">
+                £26.99<small class="text-body-secondary fw-light">/mo</small>
+              </h1>
+
+              <ul class="list-unstyled mt-3 mb-4">
+                <li>80Mb minimum guaranteed speed</li>
+                <li>30Mb estimated upload speed</li>
+                <li>£0 activation fee, was £20</li>
+                <li>Broadband only, no phone line required</li>
+              </ul>
+              <button type="button" class="w-100 btn btn-lg btn-primary">
+                Continue to Checkout
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card mb-4 rounded-3 shadow-sm border-primary">
+            <div class="card-header py-3 text-bg-primary border-primary">
+              <h4 class="my-0 fw-normal">Full Fibre 300</h4>
+            </div>
+            <div class="card-body">
+              <h1 class="card-title pricing-card-title">
+                £29.99<small class="text-body-secondary fw-light">/mo</small>
+              </h1>
+              <ul class="list-unstyled mt-3 mb-4">
+                <li>165Mb minimum guaranteed speed</li>
+                <li>50Mb estimated upload speed</li>
+                <li>£0 activation fee, was £20</li>
+                <li>Broadband only, no phone line required</li>
+              </ul>
+              <button type="button" class="w-100 btn btn-lg btn-primary">
+                Continue to Checkout
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card mb-4 rounded-3 shadow-sm border-primary">
+            <div class="card-header py-3 text-bg-primary border-primary">
+              <h4 class="my-0 fw-normal">Full Fibre 500</h4>
+            </div>
+            <div class="card-body">
+              <h1 class="card-title pricing-card-title">
+                £32.99<small class="text-body-secondary fw-light">/mo</small>
+              </h1>
+              <ul class="list-unstyled mt-3 mb-4">
+                <li>275Mb minimum guaranteed speed</li>
+                <li>75Mb estimated upload speed</li>
+                <li>£0 activation fee, was £20</li>
+                <li>Broadband only, no phone line required</li>
+              </ul>
+              <button type="button" class="w-100 btn btn-lg btn-primary">
+                Continue to Checkout
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card mb-4 rounded-3 shadow-sm border-primary">
+            <div class="card-header py-3 text-bg-primary border-primary">
+              <h4 class="my-0 fw-normal">Full Fibre 900</h4>
+            </div>
+            <div class="card-body">
+              <h1 class="card-title pricing-card-title">
+                £42.99<small class="text-body-secondary fw-light">/mo</small>
+              </h1>
+              <ul class="list-unstyled mt-3 mb-4">
+                <li>500Mb minimum guaranteed speed</li>
+                <li>125Mb estimated upload speed</li>
+                <li>£0 activation fee, was £20</li>
+                <li>Broadband only, no phone line required</li>
+              </ul>
+              <button type="button" class="w-100 btn btn-lg btn-primary">
+                Continue to Checkout
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Image corousel -->
+    <div class="container">
+      <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./src/uswitch.png" class="d-block w-100" alt="uswitch" />
+          </div>
+          <div class="carousel-item">
+            <img src="./src/fibre.png" class="d-block w-100" alt="Fibre" />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./src/mobile-broadband.jpg"
+              class="d-block w-100"
+              alt="mobile-broadband"
+            />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    <!-- Column With Icons -->
+
+    <div class="container">
+      <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+        <div class="feature col">
+          <div
+            class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-light bg-gradient fs-2 mb-3"
+          >
+            <img src="./src/speedometer.svg" width="30" height="30" />
+          </div>
+          <h3 class="fs-2 text-body-emphasis">Your estimated speed</h3>
+          <p>
+            When you check availability we'll estimate the speed you should get.
+            If you can provide a telephone number, the actual speed you'll get
+            should fall within the range we believe your line will support.
+          </p>
+        </div>
+        <div class="feature col">
+          <div
+            class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-light bg-gradient fs-2 mb-3"
+          >
+            <img src="./src/wifi.svg" height="30" width="30" />
+          </div>
+          <h3 class="fs-2 text-body-emphasis">No phone needed</h3>
+          <p>
+            With broadband only you can say bye to line rental and hello to big
+            savings and big speeds.
+          </p>
+        </div>
+        <div class="feature col">
+          <div
+            class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-light bg-gradient fs-2 mb-3"
+          >
+            <img height="30" width="30" src="./src/router.svg" />
+          </div>
+          <h3 class="fs-2 text-body-emphasis">
+            Supercharged by our Hub Two router
+          </h3>
+          <p>For reliable, incredible speeds and stronger WiFi connections.</p>
+        </div>
+      </div>
+    </div>
+    <!-- Footer Tag -->
+    <div id="grad1">
+      <div class="container">
+        <footer
+          class="d-flex flex-wrap justify-content-between align-items-center py-3 border-top"
+        >
+          <div class="col-md-4 d-flex align-items-center">
+            <a
+              href="/"
+              class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1"
+            >
+            </a>
+            <span class="mb-3 mb-md-0 text-body-secondary"
+              >2024 © Broadband plc • All Rights Reserved</span
+            >
+          </div>
+
+          <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+            <span class="mb-3 mb-md-0 text-body-secondary"
+              >Call us on 0123456789</span
+            >
+          </ul>
+        </footer>
+      </div>
+    </div>
+    <!-- tag script -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
